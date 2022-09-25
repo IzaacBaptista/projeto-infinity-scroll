@@ -29,6 +29,7 @@ function setAttributes(element, attributes) {
 
 //Create Elements for Links & Photos, Add to DOM
 function displayPhotos() {
+    imagesLoaded = 0;
     totalImages = photosArray.length;
     //Run function for each object in photosArray
     photosArray.forEach((photo) => {
